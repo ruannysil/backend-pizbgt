@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only src/server.ts",
     "build": "tsup src",
-    "vercel-build": "npx prisma migrate deploy",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "vercel-build": "npx prisma migrate deploy"
   },
   "devDependencies": {
     "@prisma/client": "^5.3.1",
